@@ -16,6 +16,8 @@ bone.log.log('test start.');
 
 describe('babel', function() {
     it('es6', function(done) {
+        this.timeout(20000);
+
         bonefs.readFile('~/dist/es6.js', function(error, buffer) {
             if(error) {
                 return done(false);
@@ -36,6 +38,8 @@ describe('babel', function() {
     });
 
     it('react', function(done) {
+        this.timeout(20000);
+
         bonefs.readFile('~/dist/react.js', function(error, buffer) {
             if(error) {
                 return done(false);
