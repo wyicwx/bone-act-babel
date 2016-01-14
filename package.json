@@ -1,6 +1,6 @@
 {
   "name": "bone-act-babel",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "index.js",
   "author": "wyicwx@gmail.com",
@@ -13,6 +13,8 @@
     "babel-core": "^6.4.0"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
     "bone": "^0.3.0"
   }
 }
