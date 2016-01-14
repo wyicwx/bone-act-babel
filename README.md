@@ -30,7 +30,7 @@ bone.dest('dist')
     });
 ```
 
-*ps:* 示例中使用了`es2015`、`react`、`transform-react-jsx`，需要另外安装
+*ps:* 示例中使用了`babel-preset-es2015`、`babel-preset-react`、`babel-plugin-transform-react-jsx`，需要另外安装
 
 ### filter
 
