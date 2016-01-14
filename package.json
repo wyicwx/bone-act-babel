@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "babel-core": "^6.4.0"
+  },
+  "devDependencies": {
+    "bone": "^0.3.0"
   }
 }
