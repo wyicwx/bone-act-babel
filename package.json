@@ -9,6 +9,15 @@
     "type": "git",
     "url": "git://github.com/wyicwx/bone-act-babel.git"
   },
+  "scripts": {
+    "test": "make",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "bone-act-babel/lib"
+    }
+  },
   "dependencies": {
     "babel-core": "^6.4.0"
   },
